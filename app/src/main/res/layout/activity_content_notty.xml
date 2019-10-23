@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pad1"
+    tools:context=".content_notty">
+
+    <EditText
+        android:id="@+id/mt"
+        android:layout_width="315dp"
+        android:layout_height="585dp"
+        android:layout_marginLeft="47dp"
+
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="60dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp" />
+</LinearLayout>
